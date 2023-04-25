@@ -1,0 +1,97 @@
+*{
+    
+    padding: 0;
+   /*background-color: #b4b4b4;*/
+background-image: url(cerezo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bold;
+}
+
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+h1{
+    color:#228B22;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+header{
+    
+    width: 100%;
+    height: 200px;
+}
+#container{
+    min-width: 100vw;
+    min-height: 100vh;
+    padding:0;
+    
+   
+}
+
+
+.div1{
+    
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5%;
+
+}
+
+.box{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+
+    margin:0;
+    padding:0;
+}
+
+.div2{
+    display:flex;
+    flex-direction:column;
+    
+    
+}
+
+video{
+
+    height: 300px;
+    width: 500px;
+}
+
+.div3{
+    display: flex;
+    flex-direction:column-reverse;
+    
+    
+    
+}
+
+img{
+    width: 500px;
+    height: 400px;
+}
+
+.sentence2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    color:#FFFF00;
+}
+h2{
+    font-size:25px;
+    color:#228B22;
+    text-shadow:#FFFF00; 
+    font-size: 40px;
+}
