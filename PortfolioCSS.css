@@ -2,17 +2,26 @@
     
     padding: 0;
    /*background-color: #b4b4b4;*/
-background-image: url(cerezo.jpg);
+}
+
+html{
+    
+}
+
+body{
+    /*min-width: 100vw;*/
+    min-height: 100vh;
+    height: 100%;
+    background-image: url(cerezo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-weight: bold;
 }
-
-
-body{
-    min-width: 100vw;
-    min-height: 100vh;
+header{
+    
+    width: 100%;
+   /* height: 200px;*/
 }
 
 h1{
@@ -22,11 +31,8 @@ h1{
     font-weight: bold;
     
 }
-header{
-    
-    width: 100%;
-    height: 200px;
-}
+
+
 #container{
     min-width: 100vw;
     min-height: 100vh;
@@ -48,7 +54,7 @@ header{
 .box{
     display:flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 
     width: 100%;
     height: 100%;
